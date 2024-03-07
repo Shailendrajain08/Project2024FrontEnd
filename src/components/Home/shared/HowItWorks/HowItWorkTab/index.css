@@ -1,0 +1,55 @@
+.hc-how-it-work-tabs--box {
+  display: flex;
+  position: relative;
+  z-index: 3;
+  column-gap: 15px;
+  padding-top: 24px;
+}
+
+.transition600 {
+  -webkit-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+
+.tab_bg_gray {
+  background: linear-gradient(to left, #d9d9d976, #d9d9d9d5);
+}
+
+.tab_bg_transparent {
+  background-color: transparent;
+}
+
+.hc-how-it-work-tabs--svg-box svg {
+  width: 50px;
+  height: 50px;
+}
+
+.how-it-works-tab--title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  word-wrap: break-word;
+}
+
+.how-it-works-tab--sub-title {
+  color: #111111 !important;
+  padding-top: 10px;
+}
+
+@media(min-width: 1024.5px){
+  .hc-how-it-work-tabs--box {
+    column-gap: 20px;
+  }
+
+  .how-it-works-tab--title {
+    font-size: 24px !important;
+    line-height: 28.80px !important;
+  }
+
+  .hc-how-it-work-tabs--svg-box svg {
+    width: 60px;
+    height: 60px;
+  }
+  
+}

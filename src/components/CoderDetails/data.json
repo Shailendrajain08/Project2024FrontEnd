@@ -1,0 +1,153 @@
+{
+  "aboutCoder": {
+    "name": "Dmytro S",
+    "location": "Lviv, Ukraine",
+    "localeTime": "8:44pm Local Time",
+    "verified": true
+  },
+  "profileSummary": {
+    "designation": "Senior UI developer",
+    "rate": 45,
+    "description": "As a Lead UI Developer, you will play a pivotal role in shaping the user interface and overall user experience of our digital products. You will lead a team of talented UI developers and collaborate closely with cross-functional teams, including UX designers, product managers, and backend developers, to create visually appealing and highly functional user interfaces. Your expertise in front-end technologies, design principles, and leadership skills will be essential in driving the success of our projects."
+  },
+  "reviews": [
+    {
+      "id": "rev001",
+      "jobName": "Implement E-mail service in Java using mailgun",
+      "rating": 4.6,
+      "startDate": "May 16, 2023",
+      "endDate": "Jun 25, 2023",
+      "reviewComment": "Loved the work. Impressive code quality!",
+      "pricing": {
+        "type": "hourly",
+        "rate": 40,
+        "paidHours": 112
+      }
+    },
+    {
+      "id": "rev002",
+      "jobName": "Java expert required to clone our github app in Docker image for production use",
+      "rating": 4.7,
+      "startDate": "May 1, 2023",
+      "endDate": "May 25, 2023",
+      "reviewComment": "Loved the work. Impressive code quality!",
+      "pricing": {
+        "type": "fixed",
+        "rate": 250
+      }
+    },
+    {
+      "id": "rev003",
+      "jobName": "Convert JS client to JAVA client",
+      "rating": 4.8,
+      "startDate": "Apr 1, 2023",
+      "endDate": "May 25, 2023",
+      "reviewComment": "Loved the work. Impressive code quality!",
+      "pricing": {
+        "type": "hourly",
+        "rate": 25,
+        "paidHours": 55
+      }
+    },
+    {
+      "id": "rev004",
+      "jobName": "Upgrade from legacy to microservices platform",
+      "rating": 4.1,
+      "startDate": "Apr 1, 2023",
+      "endDate": "May 25, 2024",
+      "reviewComment": "Loved the work. Impressive code quality!",
+      "pricing": {
+        "type": "hourly",
+        "rate": 32,
+        "paidHours": 456
+      }
+    }
+  ],
+  "employmentHistory": [
+    {
+      "designation": "Lead UI Developer",
+      "companyName": "WorkJam",
+      "startDate": "March 2022",
+      "endDate": "",
+      "profileSummary": "Leading the development of a modern dashboard system in the digital workspace field",
+      "technologies": ["JS", "TS", "React", "Redux", "Docker", "MUI"]
+    },
+    {
+      "designation": "Senior UI developer",
+      "companyName": "Intelias",
+      "startDate": "Jan 2020",
+      "endDate": "March 2022",
+      "profileSummary": "Developed UI for requirements",
+      "technologies": ["Vue", "TS", "Docker", "Pinia"]
+    },
+    {
+      "designation": "Full stack developer",
+      "companyName": "ELEKS",
+      "startDate": "Jan 2019",
+      "endDate": "Jan 2020",
+      "profileSummary": "End to end developer for client services",
+      "technologies": [
+        "Java",
+        "Springboot",
+        "JSP",
+        "Servlets",
+        "Tomcat",
+        "Postgres",
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "designation": "Freelace Developer",
+      "companyName": "Self",
+      "startDate": "Apr 2018",
+      "endDate": "Jan 2019",
+      "profileSummary": "Developed a few projects and provided support on top freelance platforms like Hirecoder.",
+      "technologies": ["JS", "HTML", "CSS", "TS", "Servlets", "Java"]
+    }
+  ],
+  "education": [
+    {
+      "university": "National University LVIV Polytechnic",
+      "specialization": "Master's degree, Radiotechnics",
+      "startDate": "2018",
+      "endDate": "2020"
+    },
+    {
+      "university": "National University LVIV Polytechnic",
+      "specialization": "Bachelor of Engineering (BEng), Radiotechnics",
+      "startDate": "2013",
+      "endDate": "2018"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Docker and Kubernetes: The Complete Guide",
+      "provider": "Udemy",
+      "issueDate": "February 2021",
+      "description": ""
+    },
+    {
+      "title": "React Fundamentals: Roadmap to React Mastery",
+      "provider": "Udemy",
+      "issueDate": "June 2021",
+      "description": ""
+    }
+  ],
+  "skills": [
+    "Java",
+    "Springboot",
+    "Kubernetes",
+    "Docker",
+    "React",
+    "Redux",
+    "Vue 2",
+    "Vuex",
+    "Vue 3",
+    "Pinia",
+    "Firebase",
+    "Amazon Web Services",
+    "Microservices"
+  ]
+}

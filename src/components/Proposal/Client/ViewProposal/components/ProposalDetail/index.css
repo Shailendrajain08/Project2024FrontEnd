@@ -1,0 +1,43 @@
+.proposal-detail--description-box {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+}
+
+.proposal-detail--proposal-box {
+  margin: 0px 24px 16px 24px;
+  text-align: start;
+}
+
+.proposal-detail--description-title {
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+.proposal-detail--file {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.proposal-detail--file-icon-box {
+  padding: 6px;
+  border-radius: 141.31px;
+  overflow: hidden;
+  border: 1.3px #14a800 solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.proposal-detail--file-icon-box svg {
+  color: #14a800;
+  height: 14px;
+  width: 14px;
+}
+
+.proposal-detail--skill-box {
+  padding: 20px 24px 0px 24px;
+}
+
+.proposal-detail--skill-chip {
+  margin: 16px 8px 20px 0px;
+}

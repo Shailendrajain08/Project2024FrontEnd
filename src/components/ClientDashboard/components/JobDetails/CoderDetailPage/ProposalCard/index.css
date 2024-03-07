@@ -1,0 +1,107 @@
+.proposal-detail-box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.proposal-detail-main-data {
+  display: flex;
+  flex-direction: row;
+  column-gap: 387px;
+  justify-content: space-between;
+}
+.proposal-detail-bio-data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.proposal-detail-personal-data {
+  display: flex;
+  column-gap: 14px;
+  align-items: center;
+}
+.proposal-image.MuiAvatar-root {
+  width: 73px;
+  height: 73px;
+}
+.proposal-detail-biodata-list {
+  display: flex;
+  flex-direction: column;
+}
+.proposal-detail-name {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.proposal-detail-username {
+  color: rgba(0, 0, 0, 0.6);
+}
+.proposal-detail-rec.MuiChip-root {
+  margin-left: 4px;
+  background: rgba(54, 113, 47, 0.08);
+  color: #14a800;
+}
+.proposal-detail-loc {
+  display: flex;
+  column-gap: 14px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.proposal-detail-desig {
+  text-align: left;
+}
+.proposal-detail-skill-type {
+  color: rgba(0, 0, 0, 0.6);
+}
+.proposal-detail-budget {
+  display: flex;
+}
+
+.proposal-detail-time-notation {
+  color: rgba(0, 0, 0, 0.38);
+}
+.proposal-detail-like-comment {
+  display: flex;
+  column-gap: 6px;
+}
+.proposal-detail-avatar-box.MuiAvatar-root {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  border: 1.3px solid rgba(0, 0, 0, 0.23);
+}
+.proposal-detail-desc-hire {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.proposal-detail-desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+.description-content {
+  color: rgba(0, 0, 0, 0.6);
+  width: calc(100% - 20%);
+  flex-wrap: wrap;
+  text-align: start;
+}
+.proposal-detail-hired-label .MuiButton-root {
+  background-color: #ffffff;
+  padding: 6px 16px;
+  border: 1px solid rgba(20, 168, 0, 0.5);
+  border-radius: 103px;
+  width: 103px;
+}
+
+.proposal-detail-loc-container {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.proposal-detail-location {
+  color: rgba(0, 0, 0, 0.6);
+}

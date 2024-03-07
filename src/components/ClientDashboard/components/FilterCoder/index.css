@@ -1,0 +1,98 @@
+.sub-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 9px !important;
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+}
+.main-filter-header {
+  font-size: 20px !important;
+}
+.filter-coder-screen {
+  background-color: #f9f9f9;
+}
+.filterd-coder {
+  width: fit-content;
+  margin-left: 30px;
+  background-color: #fff !important;
+  margin-top: 50.72px;
+  margin-right: 150px;
+  border-radius: 8px !important;
+  border: 1px solid var(--divider, rgba(0, 0, 0, 0.12));
+}
+.tech-box-filteroverflow {
+  display: flex;
+  flex-direction: column;
+  height: 207px;
+  overflow-y: scroll;
+}
+.tech-box-filter {
+  display: flex;
+  flex-direction: column;
+}
+.see-more-link {
+  color: var(--text-disabled, rgba(0, 0, 0, 0.38)) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+.sort_field {
+  width: 90px;
+  height: 40px;
+}
+.filtered_selected_chips {
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.show_more {
+  border-bottom: 1px solid #14a800;
+  font-size: 16px !important;
+}
+.pagination_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 29px;
+  width: 100%;
+  margin-bottom: 119.28px;
+}
+.filter-coder-screen-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.invite-chip-main-box .MuiChip-root {
+  padding: 4px !important;
+}
+.invite-chip-main-box .MuiChip-label {
+  padding: 3px 6px !important;
+}
+.invite-chip-main-box .MuiChip-deleteIcon {
+  margin: 0 !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+.invite-coder-search-icon svg {
+  width: 14px;
+  height: 14px;
+}
+.invitecoder--search.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+@media screen and (min-width: 1024px) {
+  .filter-coder-screen-box {
+    width: 819px;
+  }
+  .pagination_box {
+    width: 819px !important;
+  }
+  .invitecoder--search .search--input-invite-coder .MuiOutlinedInput-input {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  .coderTabel-btn-grp .select-admin-coder .MuiOutlinedInput-input {
+    padding-bottom: 9.5px;
+    padding-top: 9.5px;
+  }
+  .coderTabel-btn-grp .input-label-sort-by-invite-coder {
+    top: -2px;
+  }
+}

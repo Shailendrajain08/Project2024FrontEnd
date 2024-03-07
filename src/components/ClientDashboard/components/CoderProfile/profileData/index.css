@@ -1,0 +1,26 @@
+.body-text-header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 644px;
+}
+.header-icon {
+  border: 1px solid #d2d2d2;
+  border-radius: 50%;
+  color: grey;
+  font-size: 4px;
+  padding: 6px 6px;
+  margin-left: 12px;
+  /* margin-top: 4px; */
+  cursor: pointer;
+}
+.header-icon-more {
+  border: 1px solid #d2d2d2;
+  border-radius: 50%;
+  color: grey;
+  font-size: 4px;
+  padding: 6px 6px;
+  margin-left: 12px;
+  margin-top: 4px;
+  cursor: pointer;
+}

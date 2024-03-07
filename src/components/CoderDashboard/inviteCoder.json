@@ -1,0 +1,43 @@
+{
+  "jobs": [
+    {
+      "id": "job32423er3",
+      "title": "iOS App Developer - Swift",
+      "description": "Join our mobile app development team in Sydney and create exceptional iOS applications. We're looking for an iOS App Developer proficient in Swift and iOS development.",
+      "skills": ["Swift", "iOS Development", "Mobile App Design"],
+      "preferred_coder_residence": "USA_ONLY",
+      "contracts": [],
+      "budget_type": "FIXED",
+      "maximum_budget": 2000,
+      "maximum_hourly_rate": null,
+      "minimum_hourly_rate": null,
+      "created": "2023-10-31T16:26:34.524015Z",
+      "updated": "2023-10-31T16:26:34.524068Z",
+      "project_size": "SMALL",
+      "duration": "SHORT_TERM",
+      "expertise": ["INTERMEDIATE"],
+      "timezone": ["GMT-8:00 Pacific Time Zone", "GMT-7:00 Mountain TimeZone"],
+      "status": "saved",
+      "attachments": ["/attachment1.pdf"]
+    },
+    {
+      "id": "job987yiukjb",
+      "title": "Senior DevOps Engineer - Kubernetes Specialist",
+      "description": "We're a tech company in Seattle seeking a Senior DevOps Engineer with expertise in Kubernetes and cloud infrastructure. Help us optimize our CI/CD pipelines and deployment processes.",
+      "skills": ["Kubernetes", "Docker", "AWS", "CI/CD"],
+      "preferred_coder_residence": "USA_ONLY",
+      "contracts": [],
+      "budget_type": "FIXED",
+      "maximum_budget": 2000,
+      "maximum_hourly_rate": null,
+      "minimum_hourly_rate": null,
+      "created": "2023-10-31T16:26:34.524015Z",
+      "updated": "2023-10-31T16:26:34.524068Z",
+      "project_size": "LARGE",
+      "duration": "LONG_TERM",
+      "expertise": ["EXPERT", "INTERMEDIATE"],
+      "timezone": ["GMT-7:00 Mountain TimeZone"],
+      "status": "ACTIVE"
+    }
+  ]
+}

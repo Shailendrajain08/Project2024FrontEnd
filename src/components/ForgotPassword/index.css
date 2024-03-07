@@ -1,0 +1,112 @@
+.btn-p {
+  color: #ffffff !important;
+}
+.forget-psw-main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 180px);
+  padding: 20px;
+}
+.frgt-psw-input {
+  width: 100%;
+}
+.forget-psw-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.frgt-psw-btn-grp {
+  display: flex;
+  column-gap: 16px;
+  width: 100%;
+}
+.frgt-psw-scnd-box {
+  width: 100%;
+}
+.forget-paswoord-reset {
+  margin: 0 auto;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 141.314px;
+  border: 1.3px solid rgba(0, 0, 0, 0.23);
+}
+
+.forget-psw-reset-main-box {
+  margin-bottom: 20%;
+  margin-top: 20%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.forget-setpsw-main-box {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.change-psw-btn {
+  padding: 8px 109px !important;
+}
+.forget-psw-reset-cnt {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.set-new-psw-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.set-new-psw-form svg {
+  color: #0000008f;
+  width: 24px;
+  height: 24px;
+}
+.setpsw-typography-box {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-bottom: 24px;
+}
+.reset-mail-sent {
+  width: 216.7px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1024px) {
+  .frgt-psw-btn-grp {
+    width: 368px;
+  }
+  .frgt-psw-scnd-box {
+    width: 422px;
+    padding: 40px;
+  }
+  .forget-psw-reset-main-box {
+    width: 270.87px;
+  }
+  .forget-setpsw-main-box {
+    width: 368px;
+    padding: 0;
+  }
+  .setpsw-typography-box {
+    width: 284px;
+  }
+  .forget-psw-reset-cnt {
+    height: 630px;
+  }
+  .forget-psw-main-box {
+    padding: 0;
+  }
+  .frgt-psw-input {
+    width: 368px;
+  }
+}

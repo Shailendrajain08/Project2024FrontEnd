@@ -1,0 +1,36 @@
+.recommended-coder-box {
+  display: flex;
+  column-gap: 12.5px;
+}
+
+.recommended-coder-box:last-child {
+  column-gap: 0px;
+}
+
+.view-all-btn-box {
+  width: 100%;
+  padding: 8px 0px 6px;
+  cursor: pointer;
+}
+
+.view-all-btn-box svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.view-all-btn-box button {
+  color: #14a800 !important;
+  word-wrap: break-word;
+  line-height: 22px !important;
+  padding: 4px 5px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  font-weight: 500 !important;
+  column-gap: 8px;
+}
+
+
+.view-all-btn-box button:hover {
+  background-color: transparent !important;
+}

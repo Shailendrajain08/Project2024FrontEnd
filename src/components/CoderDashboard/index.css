@@ -1,0 +1,29 @@
+.coder-dashboard--recent-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+}
+
+.coder-dashboard--recent-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29pz;
+}
+
+.manage-tab--title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+/* =========accordion style===================== */
+.accordion-heading {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  height: 77px;
+}
+
+.invite--accordion-wrapper{
+  margin-bottom: 30px;
+}

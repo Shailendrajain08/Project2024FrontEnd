@@ -1,0 +1,73 @@
+.recommended-jobs--card {
+  padding: 10px;
+  box-shadow: 0px 1px 37px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  border: 1px solid;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommended-jobs--client-name {
+  color: #111111;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  word-wrap: break-word;
+  line-height: 19px !important;
+}
+
+.recommended-jobs--title {
+  color: #111111;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  word-wrap: break-word;
+}
+
+.recommended-jobs--text-title {
+ color: rgba(0, 0, 0, 0.87);
+ font-size: 10px !important;
+ font-weight: 400 !important;
+ line-height: 15px !important;
+ width: 97px;
+ word-wrap: break-word;
+}
+
+.w-66{
+  width: 66px;
+}
+
+.recommended-jobs--text-value {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  word-wrap: break-word;
+ }
+
+ .recommended-jobs--description {
+  color: #111111;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  word-wrap: break-word;
+  line-height: 15px !important;
+  opacity: 0.6 !important;
+ }
+
+ .recommended-jobs--skill {
+  border-radius: 50px;
+  border: 1px rgba(0, 0, 0, 0.10) solid !important;
+  font-size: 10px !important;
+  font-family: 500 !important;
+  color: rgba(0, 0, 0, 0.70);
+  background: white !important;
+ }
+
+ .recommended-jobs--btn{
+  border-radius: 40px !important;
+  padding: 6px 20px !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+ }

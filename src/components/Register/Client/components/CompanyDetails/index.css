@@ -1,0 +1,25 @@
+.company-details-form--wrapper{
+  display: flex;
+  flex-direction: column;
+
+}
+.logo-select-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 6px;
+  border-radius: 4px;
+  position: relative;
+}
+.company-details-form-heading{
+  padding-bottom: 32px;
+}
+
+.company-btn-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}

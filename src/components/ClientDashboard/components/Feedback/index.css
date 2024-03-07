@@ -1,0 +1,22 @@
+.feedback--user-box {
+  display: flex;
+  column-gap: 14px;
+}
+
+.feedback--rating-box .css-iljtu2-MuiRating-root {
+  column-gap: 12px;
+}
+
+.feedback--rating-box svg {
+  height: 30px;
+  width: 30px;
+}
+
+.feedback--submit-btn {
+  padding: 8px 22px !important;
+}
+
+.feedback--cancel-btn {
+  color: #14a800 !important;
+  padding: 8px 22px !important;
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .admin--main-container {
+    width: 818px;
+    margin: 30px 150px 100px 30px;
+    background-color: white !important;
+  }
+  .admin--ind-client-box {
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-bottom: 32px;
+  }
+  .pagination-container {
+    background-color: #f9f9f9;
+    border: none;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}

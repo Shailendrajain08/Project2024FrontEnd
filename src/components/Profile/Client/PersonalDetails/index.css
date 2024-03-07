@@ -1,0 +1,275 @@
+.basic-company-section {
+  display: flex;
+  width: 100%;
+  column-gap: 35px;
+}
+.personal-detail--avatar {
+  margin-bottom: 56px;
+  margin-top: 80px;
+}
+.Company-detail--basic-form,
+.profile-management--digital-page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 100%;
+}
+.address--main-wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 100%;
+}
+.Company-detail--basic-form-heading {
+  text-align: start;
+}
+.personal-detail--basic-form-heading {
+  text-align: start;
+  margin-bottom: 32px;
+  position: relative;
+}
+.personal-detail--basicInfo-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.personal-detail--basicInfo-name {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 24px;
+}
+
+.personal-detail--main-page {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.personal-detail--avatar {
+  display: flex;
+  justify-content: center;
+}
+.user-name {
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.personal-detail--page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.profile-management-detail--button {
+  display: flex;
+  justify-content: end;
+  column-gap: 16px;
+  margin-bottom: 110px;
+}
+.profile-payment--outline-btn {
+  padding: 8px 22px !important;
+}
+.profile-management-detail--button .profile-btn {
+  color: #fff;
+}
+
+/* ==========profile digital presence ============== */
+.profile-digital--input-field {
+  display: flex;
+  flex-direction: column;
+  column-gap: 32px;
+}
+.profile-digital--left-section,
+.profile-digital--right-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.profile-pic-edit svg {
+  width: 14px;
+  height: 14px;
+}
+.profile-digital--left-section .digital-presence-btn {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  display: flex;
+  text-transform: none;
+  height: 56px;
+}
+
+/* ==============rework new design figma profile =========================== */
+.personal-detail-basic-form {
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.personal-detail--profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.personal-detail--profile {
+  display: flex;
+  column-gap: 16px;
+  position: relative;
+}
+.personal-detail-name-section {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.profile-email--phone-section {
+  display: flex;
+  justify-content: space-between;
+}
+.profile--verify-email,
+.profile--phone {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.Company-detail--basicInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.Company-detail--basicInfo-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.Company--basicInfo-other-field {
+  display: flex;
+  column-gap: 35px;
+}
+.Company--basicInfo-other-field div {
+  width: 100%;
+}
+.company-detail-btn-wrapper {
+  display: flex;
+  justify-content: end;
+  column-gap: 16px;
+}
+.personal-detail--profile-avtar {
+  position: relative;
+  width: 70px !important;
+  height: 70px !important;
+}
+.email--verified--text {
+  color: #14a800;
+  margin-left: 3px !important;
+}
+.profile-value {
+  text-align: start;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+}
+.profile--username {
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.email--label,
+.phone--label {
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+
+.profile-pic-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #14a800;
+  border-radius: 50%;
+  bottom: 1px;
+  height: 26px;
+  width: 26px;
+  left: 45px;
+  box-shadow:
+    0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+.profile-pic-edit svg {
+  fill: #fff;
+}
+
+.digital-presence--wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: 426px;
+  margin: 0 auto;
+}
+.digital-presence-title {
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+}
+.personal-detail--digital-presence {
+  width: 426px;
+  left: 4%;
+  position: relative;
+}
+.AnyOther-input {
+  color: #000;
+}
+
+/* =================Basic details form css============== */
+.basic-detail--profile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+.avatar--wrapper {
+  display: flex;
+  justify-content: center;
+}
+.basic-details--form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.basic-field--wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.basic-name--field-wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .address--main-wrapper,
+  .Company-detail--basic-form,
+  .profile-management--digital-page,
+  .personal-detail--main-page,
+  .basic-details--form,
+  .basic-detail--profile {
+    width: 771px;
+  }
+  .Company--basicInfo-other-field div {
+    width: 368px;
+  }
+  .profile-edit-btn {
+    padding: 8px 22px !important;
+  }
+}

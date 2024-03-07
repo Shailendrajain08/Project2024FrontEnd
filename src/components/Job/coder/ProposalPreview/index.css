@@ -1,0 +1,200 @@
+.jobProposal-main-box {
+  background-color: #f9f9f9;
+}
+.jobpropasal-details {
+  width: 100%;
+  height: fit-content;
+}
+.jobproposal-container {
+  margin: auto;
+  width: fit-content;
+}
+.jobProposal-title {
+  font-weight: 400 !important;
+  font-size: 32px !important;
+}
+.hourly-preview-jobdescription .MuiTypography-root {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-style: normal !important;
+  margin-top: 16px;
+}
+.jobdescription-header {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.proposal-heading {
+  color: var(--text-primary, rgba(0, 0, 0, 0.87));
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.proposal-description {
+  font-size: 12px;
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+  width: 649px;
+}
+.proposal-files {
+  font-size: 14px !important;
+  text-align: left;
+  margin-bottom: 12px !important;
+  font-weight: 500 !important;
+}
+.uploaded-file {
+  display: flex;
+  border-radius: 141.314px !important;
+  border: 1.3px solid #14a800 !important;
+  width: 26px;
+  height: 26px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploaded-file svg {
+  fill: #14a800;
+  width: 14px;
+  height: 14px;
+}
+.action-submit-proposal {
+  border-radius: 103px !important;
+  padding: 6px 16px !important;
+}
+.action-revise-proposal {
+  border: none !important;
+  color: #ffb400 !important;
+  margin-right: 16px !important;
+  padding: 6px 8px !important;
+}
+.proposal-table {
+  border: none !important;
+  text-align: center !important;
+}
+
+.milestone-col {
+  margin-left: 14px !important;
+  font-size: 14px !important;
+  color: var(--text-disabled, rgba(0, 0, 0, 0.38));
+}
+
+.client-info {
+  width: 404px;
+}
+.verification-icon {
+  color: #478b08;
+  position: relative;
+  text-align: center !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+.proposal-table .MuiDataGrid-columnHeaderTitle {
+  padding-left: 14px;
+  overflow: visible;
+}
+.proposal-table .MuiDataGrid-columnHeaderTitle {
+  padding-right: 24px;
+}
+.question-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 291.429px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.857px solid #14a800;
+
+  padding: 1.715px;
+}
+.question-icon svg {
+  width: 8.571px;
+  height: 8.571px;
+}
+.verified-desc {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  margin: auto;
+}
+.client-rating {
+  color: #478b08 !important;
+  flex-shrink: 0 !important;
+  position: relative;
+}
+.client-rating svg {
+  height: 18px !important;
+  width: 18px !important;
+}
+.rating-desc {
+  font-size: 14px !important;
+  position: relative;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.submit-proposal-confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 141.314px;
+  width: 40px;
+  height: 40px;
+  border: 1.3px solid var(--components-input-outlined-enabledBorder, rgba(0, 0, 0, 0.23));
+}
+/* .css-i4bv87-MuiSvgIcon-root {
+  color: #14a800;
+  width: 24px;
+  height: 24px;
+} */
+.button-view-submit-proposal {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  padding: 8px 109px !important;
+  font-weight: 500 !important;
+}
+.submit-terms-and-condition {
+  padding: 8px 22px !important;
+}
+.question-mark-box {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  border-radius: 291.429px !important;
+  border: var(--none, 0.857px) solid var(--primary-main, #14a800);
+  width: 12px;
+  height: 12px;
+}
+.question-mark-box svg {
+  width: 8.571px !important;
+  height: 8.571px !important;
+}
+/* .css-1bp0rb2-MuiTypography-root {
+  align-items: center;
+} */
+.check-box-terms-and-condition .MuiCheckbox-root {
+  display: flex;
+  align-self: baseline;
+  padding: 2px;
+}
+.check-box-terms {
+  column-gap: 12px;
+}
+.close-outlined-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 24px;
+  top: 24.281px;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 200px;
+}
+.close-outlined-box svg {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  .jobpropasal-details {
+    width: 712px;
+  }
+}

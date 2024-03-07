@@ -1,0 +1,26 @@
+.team-card {
+  margin-top: 24px;
+}
+
+.team-top-box {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+}
+
+.team-top-box--container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-top-box--container button {
+  color: #14a800;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 96px;
+  padding: 4px 10px;
+}
+
+.team-card-content .tab-container-btn {
+  width: 50%;
+}

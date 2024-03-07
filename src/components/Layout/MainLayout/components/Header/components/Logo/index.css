@@ -1,0 +1,11 @@
+.logo-box a {
+  text-decoration: none;
+  line-height: 0 !important;
+}
+
+.logo-subText {
+  margin-top: 4px;
+  font-size: 8.98px !important;
+  font-weight: 300 !important;
+  color: rgba(20, 168, 0, 1);
+}

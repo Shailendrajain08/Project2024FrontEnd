@@ -1,0 +1,29 @@
+.view-proposal--detail-card {
+  padding: 24px;
+}
+
+.view-proposal--declined-button {
+  color: #d32f2f;
+  margin-right: 16px;
+}
+
+.view-proposal--declined-button:hover {
+  background-color: transparent;
+}
+
+.view-proposal--hire-now-button {
+  color: #14a800 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 103px;
+  word-wrap: break-word;
+}
+
+.view-proposal-modal--btn {
+  padding: 6px 16px !important;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.client-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+.client-form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.term-condition-error{
+  color: #F93232 !important;
+}
+.sign-up--term-condition{
+  margin-top: 0;
+}
+
+.term-condition-wrapper > label{
+ text-align: start;
+}
+
+@media screen and (min-width:768px) {
+  .sign-up--term-condition{
+    margin-top: 16px;
+  }
+}

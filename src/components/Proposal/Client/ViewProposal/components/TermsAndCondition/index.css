@@ -1,0 +1,9 @@
+.term-and-condition--icon-box {
+  cursor: pointer;
+}
+
+.term-condition-url {
+  text-decoration: none;
+  color: #14a800;
+  pointer-events: all;
+}

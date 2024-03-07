@@ -1,0 +1,82 @@
+.basic-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.name-wrapper,
+.phone-select-wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+
+.signup-term-condition-wrapper {
+  text-align: start;
+  margin-bottom: 24px;
+}
+.already-account-wrapper {
+  margin-top: 16px;
+}
+.submit-btn-wrapper {
+  width: 100%;
+}
+.submit-btn {
+  padding: 8px 153.5px !important;
+  line-height: 26px !important;
+}
+
+.already-account-wrapper,
+.login-url {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 22px;
+  text-decoration: none;
+}
+.already-account-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 4px;
+  font-size: 14px;
+  line-height: 21.7px;
+  font-weight: 500;
+  color: #000;
+}
+.login-url {
+  font-weight: 600;
+  color: #14a800;
+}
+.sign-up--term-condition-label {
+  width: 100%;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.sign-up--term-condition-label a {
+  text-decoration: none;
+  color: #14a800;
+}
+
+.sign-up--term-condition-url {
+  text-decoration: none;
+  color: #14a800;
+}
+
+@media screen and (min-width: 1024px) {
+  .term-condition-wrapper {
+    padding: 0;
+    text-align: unset;
+    margin-bottom: 24px;
+  }
+  .sign-up--term-condition-label {
+    width: 328px;
+  }
+  .submit-btn {
+    padding: 8px 153.5px !important;
+  }
+}

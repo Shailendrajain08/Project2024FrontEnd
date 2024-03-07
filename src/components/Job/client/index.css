@@ -1,0 +1,13 @@
+.prefertime-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.time-zone-list {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+}
+.list-sub-heading {
+  text-align: start;
+}

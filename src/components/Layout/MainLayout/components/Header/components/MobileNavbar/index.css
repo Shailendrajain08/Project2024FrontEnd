@@ -1,0 +1,56 @@
+.mobile-nav-bar--top-box {
+  height: 51px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.mobile-nav-bar--top-box svg {
+  height: 20px;
+  width: 20px;
+}
+
+.mobile-nav-bar--list-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.47px;
+}
+
+.mobile-nav-bar--list-text .logout {
+  color: #d32f2f !important;
+}
+
+.mobile-nav-bar--list-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.mobile-nav-bar--list-icon svg {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.icon-box-dropdown svg {
+  position: absolute;
+  top: 10px;
+}
+
+.padding_left--20 {
+  padding-left: 20px;
+}
+
+.padding_left--36 {
+  padding-left: 36px;
+}
+
+.mobile-header--post-new-job-btn {
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.mobile-header--post-new-job-btn button {
+  width: 100%;
+  color: white;
+}

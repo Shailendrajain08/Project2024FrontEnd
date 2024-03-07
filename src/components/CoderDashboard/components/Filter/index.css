@@ -1,0 +1,37 @@
+.advanced-filter--box {
+  cursor: pointer;
+}
+
+.filter--chip {
+  border: none !important;
+  column-gap: 6px !important;
+}
+
+.filter-modal--list-sub-header-box {
+  width: 175px;
+  height: 40px;
+  padding: 0px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: inline-flex;
+}
+.filter-modal--list-sub-header-text {
+  padding: 0px !important;
+  line-height: 22px !important;
+}
+
+.filter-modal--form-control-label {
+  margin: 0px !important;
+}
+
+.filter-modal--btn-box {
+  margin-top: 13px;
+}
+
+.filter-modal--btn-box button {
+  font-size: 15px !important;
+  line-height: 26px !important;
+  font-weight: 500 !important;
+  padding: 8px 22px;
+}

@@ -1,0 +1,56 @@
+.clients--table {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+.clients--table .MuiDataGrid-columnHeaders {
+  min-height: 62px;
+  max-height: 62px;
+  line-height: 62px;
+}
+
+.clients--table .MuiDataGrid-columnHeaderTitle {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.clients--table .MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 0px 24px;
+}
+
+.clients--table .MuiDataGrid-root {
+  border: none;
+}
+
+.client--tablist .css-1wf8b0h-MuiTabs-flexContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 23px;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.client-table--linkedin-logo {
+  width: 26px;
+  height: 26px;
+  padding: 6px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1.3px solid rgba(0, 0, 0, 0.23);
+}
+
+/* ==========CODER */
+
+.coder-admin-table .MuiDataGrid-columnHeaderTitleContainer {
+  line-height: 21.7px;
+  padding-bottom: 16px;
+  padding-left: 14px;
+}
+.coder-data-grid-row--items {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 14px;
+}
+.coder-data-grid-row--items-icon {
+  padding-left: 14px;
+}

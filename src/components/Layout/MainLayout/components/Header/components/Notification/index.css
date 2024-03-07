@@ -1,0 +1,43 @@
+.notification-box {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 4px !important;
+  box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.07);
+  position: absolute;
+  width: max-content;
+  width: 13.813rem;
+  height: 14.313rem;
+  top: 5.688rem;
+  margin-left: -16px !important;
+}
+
+.notification-box-heading {
+  height: 45px !important;
+}
+
+.notification-box-heading li button {
+  color: #000000;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px;
+  word-wrap: break-word;
+  padding: 8px 16px;
+  text-transform: none !important;
+}
+
+.notification-box ul li button:hover {
+  background-color: transparent !important;
+}
+
+.notification-box .subtitle-text {
+  margin-top: 8px;
+  color: #6d6d6d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.7px;
+  word-wrap: break-word;
+}

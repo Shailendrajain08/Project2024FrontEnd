@@ -1,0 +1,9 @@
+.file--icon {
+  color: #22AD10;
+  border: 1px solid #22AD10;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  height: 26px !important;
+  width: 26px !important;
+}

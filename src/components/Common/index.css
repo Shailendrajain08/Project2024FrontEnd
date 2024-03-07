@@ -1,0 +1,252 @@
+.keyword-input--text-box {
+  border-radius: 30px;
+  background: lightgreen;
+  padding: 8px 10px;
+}
+
+.keyword-remove {
+  color: red;
+  cursor: pointer;
+}
+.autocomplete-container .MuiAutocomplete-tag {
+  display: none !important;
+}
+
+.autocomplete-container .MuiChip-label {
+  padding: 6px;
+}
+.autocomplete-container .selected--chips {
+  padding-left: 0;
+  margin-top: 24px;
+  display: flex;
+  column-gap: 10px;
+}
+.autocomplete-container .selected-chip {
+  padding: 4px;
+}
+.autocomplete-container .selected-chip .MuiChip-deleteIcon {
+  margin: 0;
+  font-size: 24px;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.margin-left_30 {
+  margin-left: 30px !important;
+}
+
+.error-text {
+  color: rgb(249, 50, 50) !important;
+  font-size: 13px !important;
+  margin-left: 10px !important;
+  position: absolute;
+  bottom: -20px;
+  left: -5px;
+}
+
+.margin-bottom_-6 {
+  margin-bottom: -6px !important;
+}
+
+.submenu {
+  cursor: pointer;
+}
+
+.submenu :hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.MuiOutlinedInput-root .Mui-focused fieldset {
+  border-color: green !important;
+}
+.spinner-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 30vh - 66px);
+}
+
+.radio-card-section .radio-card {
+  box-shadow: none;
+  margin: 0;
+}
+.radio-card-section {
+  row-gap: 24px;
+}
+.radio-heading {
+  display: flex;
+  align-items: center;
+}
+.imp-star {
+  color: #d32f2f;
+}
+.radio-card-text {
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn.inActive {
+  padding: 9px 22px;
+  background-color: #f2f1f1;
+  color: #333;
+  cursor: not-allowed;
+}
+
+.submit-btn.inActive:hover {
+  background-color: #f2f1f1;
+  color: #333;
+}
+
+.submit-btn.active {
+  padding: 9px 22px;
+  background-color: #14a800;
+  color: #fff;
+}
+
+.submit-btn.active:hover {
+  background-color: #14a800;
+  color: #fff;
+}
+
+/* =================== */
+.glassdoor-input,
+.careerBlizz-input,
+.Youtube-input,
+.AnyOther-input,
+.stackoverflow-input,
+.github-input,
+.linkedIn-input {
+  font-family: Inter !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+}
+.glassdoor-input {
+  color: #14a800;
+}
+.careerBlizz-input {
+  color: #ffb900;
+}
+.Youtube-input {
+  color: #f93232;
+}
+.stackoverflow-input {
+  color: #f7790b;
+}
+.linkedIn-input {
+  color: #2563eb;
+}
+.AnyOther-input,
+.github-input {
+  color: #000;
+}
+
+.inputAdorement {
+  position: absolute;
+  left: calc(100% - 65%);
+}
+.helper-text {
+  text-align: end;
+}
+
+.common--checkbox-label .link-label {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.link-url-text {
+  line-height: 24px;
+  list-style: none;
+  color: #14a800;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* ======modal css =========  */
+.model-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.modal_body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  overflow-y: auto;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+/* ======radio component style========= */
+.imp-star {
+  color: #d32f2f;
+}
+.radio-form {
+  margin: 0px !important;
+  column-gap: 10px;
+}
+.radio-form > .MuiButtonBase-root {
+  padding: 2px !important;
+}
+.radio-form-wrapper {
+  row-gap: 24px;
+}
+.radio-header-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.radio-header--label-imp {
+  display: flex;
+}
+.btn-file {
+  background-color: rgba(0, 0, 0, 0.12) !important ;
+  color: black !important;
+  padding: 8px 24px !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+  border-radius: 4px !important;
+  border: 1px solid black !important;
+  margin: 10px 0 !important;
+  /* height: 30px !important; */
+  text-wrap: nowrap !important;
+}
+
+/* ==============checkbox common============= */
+.mui-common--checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.mui--common--checkbox-form {
+  margin: 0px !important;
+  column-gap: 10px;
+}
+.mui--common--checkbox-form > .MuiButtonBase-root {
+  padding: 2px !important;
+}
+.job-post--checkbox-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.file-upload-span {
+  cursor: 'pointer' !important;
+}
+.file-upload-present-icon {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+

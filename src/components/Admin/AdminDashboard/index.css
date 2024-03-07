@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+  .admin-dashboard--main-container {
+    width: 819px;
+    margin: 80px 150px auto 30px;
+  }
+}
+
+.admin-dashboard--top-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 132px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+.admin-dashboard--graph-container {
+  background-color: #fff;
+  padding: 24px 16px 24px 24px;
+  height: auto;
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (min-width: 768px) {
+  .line-chart-wrapper {
+    width: 779px;
+    height: 221px;
+  }
+}
+
+.line-chart-wrapper .MuiChartsAxis-tickLabel {
+  font-size: 14px !important;
+}
+
+.line-chart-wrapper .MuiLineElement-root {
+  stroke: #14a800;
+  stroke-width: 2px;
+}
+.line-chart-wrapper .MuiAreaElement-root {
+  fill: url('#myGradient');
+}
+.line-chart-wrapper .MuiChartsAxis-tickContainer .MuiChartsAxis-tickLabel {
+  fill: rgba(0, 0, 0, 0.6);
+}
+.line-chart-wrapper .MuiChartsAxis-root .MuiChartsAxis-tick {
+  stroke: none;
+}
+.line-chart-wrapper .MuiChartsAxis-root .MuiChartsAxis-line {
+  stroke: none;
+}
+
+.line-chart-wrapper .MuiMarkElement-root {
+  stroke: #14a800;
+}

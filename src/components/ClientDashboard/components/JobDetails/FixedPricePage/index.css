@@ -1,0 +1,166 @@
+.fixed-price-container {
+  margin: 50px 150px 92px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  text-align: start;
+}
+
+.fixed-price-box-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-price-job-headlines {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 10px 24px;
+}
+
+.fixed-price-desc {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.fixed-price-job-headline {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fixed-price-job-coder-hired {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fixed-price-tab-box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.fixed-price-main-data {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.fixed-price-coder-data {
+  display: flex;
+  column-gap: 14px;
+}
+
+.fixed-price-coder-image {
+  width: 40px;
+  height: 40px;
+}
+
+.fixed-price-coder-name-desig {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-price-save-share {
+  display: flex;
+  column-gap: 6px;
+}
+
+.fixed-price-avatar-box.MuiAvatar-root {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  border: 1.6px solid rgba(0, 0, 0, 0.23);
+}
+.fixed-price-pay-sum {
+  display: flex;
+  column-gap: 64px;
+  margin-bottom: 30px;
+}
+
+.fixed-price-pay-sum-mile-pay {
+  padding: 24px;
+  padding-bottom: 0px;
+}
+
+.fixed-price-mile-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fixed--price--filter-chip .MuiChip-root {
+  background-color: white;
+}
+.filter-box--big--chip.MuiChip-root {
+  padding: 4px 12px;
+}
+.filter-box--small--chip.MuiChip-root {
+  padding: 3px 8px;
+}
+.fixed-price-filter-search {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.fixed-price-filter-box {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .fixed-price-search-box {
+    width: 350px;
+  }
+}
+
+.fixed---price--input-field .MuiOutlinedInput-root {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.fixed-price-search-data {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+
+.fixed-price-light-color {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.milestone-status-processing.MuiChip-root {
+  background: #fffde7;
+  color: #f9a825;
+}
+
+.milestone-status-completed.MuiChip-root {
+  background: rgba(20, 168, 0, 0.08);
+  color: #14a800;
+}
+.milestone-status-done.MuiChip-root {
+  background: rgba(20, 168, 0, 0.08);
+  color: #14a800;
+}
+
+.milestone-status-pay-now.MuiButton-root {
+  color: #14a800;
+  background-color: #ffffff;
+  border-radius: 103px;
+  padding: 6px 16px;
+  border: 1px solid rgba(20, 168, 0, 0.5);
+}
+
+.fixed-price-payment-table-row .MuiTableCell-root {
+  padding: 24px;
+}
+.fixed-price-hired-label.MuiButton-root {
+  background-color: #ffffff;
+  padding: 4px 10px;
+  border: 1px solid rgba(20, 168, 0, 0.5);
+  border-radius: 103px;
+}

@@ -1,0 +1,21 @@
+{
+  "title": " Need a Senior Java Developer with Enterprise Experience",
+  "details": [
+    { "featureName": "Job Size", "featureValue": "Large" },
+    {
+      "featureName": "Expected Duration",
+      "featureValue": "More than 6 months"
+    },
+    { "featureName": "Expertise Level", "featureValue": "Expert" },
+    { "featureName": "Preferred Location", "featureValue": "USA" },
+    { "featureName": "Preferred Time Zone", "featureValue": "EST" },
+    { "featureName": "Budget", "featureValue": "$60 - $80/Hour" }
+  ],
+  "description": "Writing JavaScript code. Converting design mock-ups into code. Working with libraries such as Sigma, Git, CSS, Adobe XD, etc. Creating a web interface according to the client's preferences.our primary focus will be on developing user interface components and implementing them following well-known React. js workflows (such as Flux or Redux). You will ensure that these components and the overall application are robust and easy to maintain.",
+  "skills": [
+    { "skillName": "React", "skillId": 101 },
+    { "skillName": "Git", "skillId": 102 },
+    { "skillName": "JAVA", "skillId": 103 },
+    { "skillName": "AWS", "skillId": 104 }
+  ]
+}

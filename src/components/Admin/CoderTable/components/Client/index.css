@@ -1,0 +1,127 @@
+.job-posting-tables {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  align-items: flex-start;
+  border-style: solid;
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-width: 1px;
+  column-gap: 16px;
+  background: #fff;
+  width: 832px;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+
+#clientTable_Data .MuiDataGrid-cellContent {
+  display: flex;
+  height: 72px;
+  align-items:center;
+  text-align: center;
+  gap: 0px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  padding-left: 13px;
+}
+
+.full_name{
+  display: flex;
+  height: 72px;
+  align-items:center;
+  text-align: center;
+  gap: 0px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  padding-left: 11px;
+}
+
+.data-grid-row--items {
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.jobs-posting-tabsContainer .MuiTabs-scroller {
+  position: relative;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 0px;
+  border-radius: 0px;
+}
+
+
+#clientTableData  {
+
+  color: rgba(0, 0, 0, 0.6) ;
+  align-items: self-start;
+  text-align: left;
+  background: #fff;
+  }
+
+#clientTableData .MuiDataGrid-columnHeader {
+  gap: 51px;
+  border-radius: 0px;
+  font-size: 14px;
+  font-style: bolder;
+  font-weight: 500;
+  line-height: 155%;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  width: 611px;
+  padding: 0px;
+  align-items: center;
+  
+}
+#clientTableData .css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone{
+
+padding-left: 7px;
+
+}
+
+
+#clientTableData .css-t89xny-MuiDataGrid-columnHeaderTitle {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%;
+}
+
+#clientTableData .MuiDataGrid-autoHeight {
+  position: relative;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  outline: none;
+  gap: 51px;
+  background: #fff;
+}
+
+#list { 
+  align-items:center;
+  text-align: center;
+  gap: 0px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  padding-left: 27px;
+}
+
+#switch {
+  margin-left: 5px;
+} 

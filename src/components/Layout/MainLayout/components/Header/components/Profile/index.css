@@ -1,0 +1,15 @@
+.profile-dropdown {
+  background-color: #ffffff;
+  text-decoration: none;
+  margin-left: -20px !important;
+  top: 5.688rem;
+}
+
+.right_0 {
+  right: 0px;
+}
+
+.profile-dropdown ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1) !important;
+}

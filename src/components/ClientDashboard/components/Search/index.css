@@ -1,0 +1,39 @@
+.client-dashboard--search-box {
+  width: 100%;
+}
+
+.client-dashboard--search-input {
+  height: 42px;
+  background: white;
+  border-radius: 4px;
+}
+
+.client-dashboard--search-end-box {
+  width: auto;
+  border-left: 1px #e7e7e7 solid;
+  margin: 10px;
+}
+
+.client-dashboard--option-select {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.client-dashboard--option-select svg {
+  margin-left: 4px;
+}
+
+.client-dashboard--option-list-box {
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  background: #fff;
+  min-width: 80px;
+  border-radius: 4px !important;
+  box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.07);
+  z-index: 999999 !important;
+}

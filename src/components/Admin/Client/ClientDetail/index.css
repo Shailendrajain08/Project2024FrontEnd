@@ -1,0 +1,85 @@
+.indClient-details-sub-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.indClient-details-client-initials {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.indClient-details-doc-container {
+  margin-top: 4px;
+  padding: 5px 14.5px;
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+  width: auto;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+}
+.indClient-details--social-buttons.MuiButtonBase-root.MuiButton-root {
+  width: 200px;
+  height: 56px;
+  text-transform: none;
+  border-color: rgba(0, 0, 0, 0.23);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.glassdoor-icon--button.MuiButton-root {
+  color: #00a264;
+}
+.careerbliss-icon--button.MuiButton-root {
+  color: #ffb900;
+}
+.youtube-icon--button.MuiButton-root {
+  color: #f93232;
+}
+.client--edit-profile-button.MuiButton-root {
+  padding: 7px 22.5px;
+  line-height: 26px;
+}
+
+.indClient-details--address-details {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.indClient-details-company--details {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.indClient-details-heading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.indClient--avatar-pic.MuiAvatar-root {
+  height: 60px;
+  width: 60px;
+}
+.indClient-desc--text {
+  color: rgba(0, 0, 0, 0.6);
+}
+.indClient--verified-text {
+  color: #14a800;
+}
+.client-avatar--badge.MuiBadge-root .MuiBadge-badge {
+  height: 12px;
+  min-width: 12px;
+  border-radius: 50px;
+}

@@ -1,0 +1,22 @@
+.main-box {
+  background-color: #f9f9f9;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.center-section {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  width: 1140px;
+  text-align: start;
+  /* padding: 24px 24px; */
+}
+.submit-proposal-btn {
+  background-color: transparent !important;
+  border: 1px solid #14a800 !important;
+  color: #14a800 !important;
+  padding: 6px 16px !important;
+  box-shadow: none !important;
+  border-radius: 103px !important;
+}

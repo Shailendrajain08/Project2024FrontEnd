@@ -1,0 +1,110 @@
+.sub-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 9px !important;
+  color: var(--text-secondary, rgba(0, 0, 0, 0.6));
+}
+.main-filter-header {
+  font-size: 20px !important;
+}
+.filter-coder-screen {
+  background-color: #f9f9f9;
+}
+.filterd-coder {
+  margin-left: 30px;
+  background-color: #fff !important;
+  margin-top: 24px;
+  margin-right: 150px;
+  border-radius: 8px !important;
+  border: 1px solid var(--divider, rgba(0, 0, 0, 0.12));
+}
+.tech-box-filteroverflow {
+  display: flex;
+  flex-direction: column;
+  height: 207px;
+  overflow-y: scroll;
+}
+.tech-box-filter {
+  display: flex;
+  flex-direction: column;
+}
+.see-more-link {
+  color: var(--text-disabled, rgba(0, 0, 0, 0.38)) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+.sort_field {
+  width: 90px !important;
+  height: 40px !important;
+}
+.filtered_selected_chips {
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.shomultiplew_more {
+  border-bottom: 1px solid #14a800;
+  font-size: 16px !important;
+}
+.pagination_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 29px;
+  width: calc(100% - 20%);
+  margin-bottom: 119.28px;
+}
+.invite-multiplecoder-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 35.5px 24px 27.5px 24px;
+}
+.invite-multiplecoder-text {
+  color: var(--text-primary, rgba(0, 0, 0, 0.87)) !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 145% !important;
+}
+.invite-multiple-coder {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+}
+.invite-coder-alert {
+  margin-left: 30px;
+  margin-top: 24px;
+  width: 100%;
+}
+.multiple-invite-now-btn {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 4px;
+  height: 36px;
+}
+.invite-coder-btns .invite-now-btn {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 4px;
+  height: 36px;
+}
+.invite-coder-btns .invite-now-btn svg {
+  margin-top: 2.5px;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .invite-multiple-coder {
+    width: 819px;
+  }
+
+  .invite-coder-alert {
+    width: 819px;
+  }
+}

@@ -1,0 +1,102 @@
+.coder-detail-box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin: 0 auto;
+}
+.coder-detail-main-data {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: row;
+  column-gap: 387px;
+  justify-content: space-between;
+}
+.coder-detail-bio-data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.coder-detail-personal-data {
+  display: flex;
+  column-gap: 14px;
+  align-items: center;
+}
+.coder-image.MuiAvatar-root {
+  width: 73px;
+  height: 73px;
+}
+.coder-detail-biodata-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.coder-detail-name {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.coder-detail-username {
+  color: rgba(0, 0, 0, 0.6);
+}
+.coder-detail-loc {
+  display: flex;
+  column-gap: 14px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.coder-detail-skill-type {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.coder-detail-loc-container {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.coder-detail-location {
+  color: rgba(0, 0, 0, 0.6);
+}
+.coder-detail-desig {
+  text-align: left;
+}
+
+.coder-detail-budget {
+  display: flex;
+}
+.coder-detail-time-notation {
+  color: rgba(0, 0, 0, 0.38);
+}
+.coder-detail-like-comment {
+  display: flex;
+  column-gap: 6px;
+}
+.coder-detail-avatar-box.MuiAvatar-root {
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  border: 1.3px solid rgba(0, 0, 0, 0.23);
+}
+.coder-detail-desc-hire {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.coder-detail-desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-content {
+  color: rgba(0, 0, 0, 0.6);
+  width: calc(100% - 20%);
+  flex-wrap: wrap;
+  text-align: start;
+}
+.coder-detail-hired-label.MuiChip-root {
+  background: rgba(54, 113, 47, 0.08);
+  color: #14a800;
+}

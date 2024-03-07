@@ -1,0 +1,63 @@
+.job--details--main--container {
+  margin: 50px auto 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  text-align: start;
+}
+@media screen and (min-width: 768px) {
+  .job--details--main--container {
+    width: 1140px;
+    margin: 50px auto 92px;
+  }
+}
+.job-detail-box-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-price-chip-top.MuiChip-root {
+  background: rgba(20, 168, 0, 0.08);
+  color: #14a800;
+}
+.chip-top.MuiChip-root {
+  background: rgba(20, 168, 0, 0.08);
+  color: #14a800;
+}
+.coder-detail-chip-top.MuiChip-root {
+  background: #fffde7;
+  color: #f9a825;
+}
+.active-coder--chip-top.MuiChip-root {
+  background: #fffde7;
+  color: #f9a825;
+}
+.job-detail-job-headlines {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 10px 24px;
+}
+.job-detail-desc {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.job-detail-job-headline {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.job-detail-job-coder-hired {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.job-detail-tab-box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.job-detail-tab-style.MuiTab-root {
+  text-transform: none;
+}

@@ -1,0 +1,58 @@
+.Admin-job--container--section {
+  width: 100%;
+  background-color: #fff;
+}
+.admin-download-csv--btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding: 0px 24px;
+}
+.Admin-table--heading-section {
+  padding: 24px;
+  text-align: start;
+}
+.admin--mange--tab-container {
+  display: grid;
+}
+.admin--jobtable-tab-wrapper {
+  overflow: hidden;
+  margin-top: 1px;
+}
+.admin--jobtable-tab-wrapper .mui-common--wrapper {
+  display: flex;
+  width: 100%;
+}
+.admin--jobtable-tab-wrapper .mui-common--wrapper .tab-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 7px;
+}
+.admin-calendar--section {
+  position: absolute;
+  grid-area: 1/1;
+  justify-self: end;
+  padding: 0px 24px 0px 0px;
+}
+.admin--jobtable-tab-wrapper .mui--common-tab .all--jobs-table .MuiDataGrid-root {
+  border-style: unset;
+  border-color: unset;
+}
+
+@media screen and (min-width: 1024px) {
+  .Admin-job--container--section {
+    width: 819px;
+    margin: 0 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+  .Admin-Manage_table-main-container .pagination--wrapper {
+    width: 819px;
+    margin: 0 30px;
+    margin-top: 30px;
+  }
+  .select-admin-option {
+    width: 150px;
+    height: 40px;
+    text-align: start;
+  }
+}

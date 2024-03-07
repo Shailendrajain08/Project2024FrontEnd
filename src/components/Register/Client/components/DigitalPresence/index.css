@@ -1,0 +1,27 @@
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.digital-presence-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.digital-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.digital-form-wrapper > .digital-presence-input > .MuiInputBase-root {
+  padding-left: 0 !important;
+}
+.digital-form-wrapper > .digital-presence-input > .MuiInputBase-root > .MuiInputBase-input {
+  padding: 16px !important;
+}

@@ -1,0 +1,30 @@
+.header-auth--app-bar {
+  height: 90px !important;
+  background-color: #f3fbf2 !important;
+  width: auto;
+}
+
+.header-auth--tool-bar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .header-auth--tool-bar {
+    height: 100%;
+    display: inline-flex;
+    gap: 28rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header-auth--tool-bar {
+    height: 100%;
+    display: inline-flex;
+    gap: 61.688rem;
+    justify-content: center;
+  }
+}

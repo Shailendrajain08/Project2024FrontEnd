@@ -1,0 +1,24 @@
+.filter-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0px 19px 0px;
+}
+
+.filter-facet-form-control {
+  text-align: start;
+}
+
+.filter-facet--form-group {
+  margin-bottom: 17px;
+}
+
+.filter-facet-label {
+  padding: 0px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+
+.filter-facet--count {
+  color: rgba(0, 0, 0, 0.38);
+}

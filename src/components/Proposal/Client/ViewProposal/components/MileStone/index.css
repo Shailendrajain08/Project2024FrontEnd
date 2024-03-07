@@ -1,0 +1,13 @@
+.mile-stone--heading-box {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+  padding: 16px 24px 8px 24px;
+}
+
+.mile-stone--data-box {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+  padding: 16px 24px 16px 24px;
+}
+
+.mile-stone--total-cost-box {
+  padding: 16px 24px 8px 24px;
+}

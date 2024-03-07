@@ -1,0 +1,99 @@
+.coder-proposal-card--container {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+}
+
+.coder-proposal-card--top {
+  display: flex;
+}
+
+.coder-proposal-card--img {
+  width: 49px;
+  height: 49px;
+}
+
+.coder-proposal-card--img svg {
+  width: 100%;
+  height: 100%;
+}
+
+.coder-proposal-card--action-box {
+  display: flex;
+  column-gap: 6px;
+  justify-content: end;
+  align-items: center;
+}
+
+.coder-proposal-card--icon-box {
+  padding: 6px;
+  border-radius: 141.31px;
+  border: 1.3px rgba(0, 0, 0, 0.23) solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.coder-proposal-card--icon-box svg {
+  height: 14px;
+  width: 14px;
+  color: rgba(0, 0, 0, 0.23);
+}
+
+.coder-proposal-card--skills-tab-box {
+  margin: 14px 0px;
+  display: flex;
+  column-gap: 8px;
+}
+
+.coder-proposal-card--description-text {
+  color: rgba(0, 0, 0, 0.6);
+  word-wrap: break-word;
+}
+
+.coder-proposal-card--bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coder-proposal-card--rating {
+  color: #ffb400;
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.coder-proposal-card--rating svg {
+  height: 16px;
+  width: 16px;
+}
+
+.coder-proposal-card--hourly-rate {
+  color: #14a800;
+}
+
+.coder-proposal-card--text {
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: 500;
+}
+
+.coder-proposal-card--icon-text {
+  color: rgba(0, 0, 0, 0.56);
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.coder-proposal-card--icon-text svg {
+  height: 16px;
+  width: 16px;
+}
+
+.coder-proposal-card--btn-box button {
+  color: #14a800 !important;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 103px;
+  word-wrap: break-word;
+}

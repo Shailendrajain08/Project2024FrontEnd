@@ -1,0 +1,39 @@
+
+.home-hc-text-type-box{
+  text-align: start;
+  margin-top: 40px;
+}
+
+.text-type-animation--text {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+
+.text-type-animation--heading {
+  min-height: 114px;
+  max-width: 580px;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 38px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .home-hc-text-type-box{
+    min-height: 213px;
+  }
+  .text-type-animation--heading {
+    min-height: 175px;
+    max-width: 580px;
+    font-size: 48px !important;
+    line-height: 60px !important;
+  }
+
+  .text-type-animation--text {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 31px !important;
+  }
+  
+}

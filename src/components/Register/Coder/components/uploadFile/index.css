@@ -1,0 +1,13 @@
+.btn-file {
+  background-color: rgba(0, 0, 0, 0.12) !important ;
+  color: black !important;
+  padding: 8px 24px !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+  border-radius: 4px !important;
+  border: 1px solid black !important;
+  margin: 10px 0 !important;
+  /* height: 30px !important; */
+  text-wrap: nowrap !important;
+}

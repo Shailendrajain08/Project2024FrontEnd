@@ -1,0 +1,38 @@
+.coder-detail-name-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 6px;
+  text-align: left;
+}
+.coder-personal--name-username {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.separater-line {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 24px 0px;
+}
+
+.personal-detail--profile-avtar {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.coder-outline-btn {
+  padding: 8px 22px !important;
+}
+
+.coder-detail--social-presence {
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .coder-detail--social-presence {
+    width: 426px;
+  }
+}

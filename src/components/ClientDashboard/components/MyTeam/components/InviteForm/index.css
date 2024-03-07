@@ -1,0 +1,33 @@
+.my-team--radio-box {
+  margin-bottom: 24px;
+}
+
+.my-team--radio-btn-group {
+  display: block !important;
+  column-gap: 20px;
+}
+
+.my-team-term-and-condition-box {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.my-team-term-and-condition-box span {
+  line-height: 21.7px;
+  word-wrap: break-word;
+}
+
+.text-green {
+  color: #14a800;
+  padding: 0px 4px !important;
+}
+
+.my-team--invite-btn {
+  padding: 8px 22px !important;
+}
+
+.my-team--cancel-btn {
+  padding: 8px 22px !important;
+  color: #14a800 !important;
+}

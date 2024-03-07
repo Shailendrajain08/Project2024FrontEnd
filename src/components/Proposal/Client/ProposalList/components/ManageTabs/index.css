@@ -1,0 +1,8 @@
+.manage-proposal-tab--filter {
+  padding: 24px 24px 10px 24px;
+  justify-content: space-between;
+}
+
+.manage-proposal-tab--tab-panel {
+  padding: 0px !important;
+}

@@ -1,0 +1,44 @@
+.congratulation-card--main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.congratulation-card--title {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 32px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  margin-bottom: 12px !important;
+}
+.congratulation-card--body1 {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  margin-bottom: 24px !important;
+}
+.congratulation-card--link-text {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.congratulation-card--link {
+  text-decoration: none !important;
+}
+.congratulation-card--logobox-wrapper {
+  border-radius: 4px;
+  border: 1px dashed #14a800;
+}
+.congratulation-card--logobox {
+  padding: 26px 99px 26px 99px;
+}
+.congratulation-card--svg {
+  line-height: 0;
+}
+.congratulation-card--logo-text {
+  font-size: 15px !important;
+  color: #14a800;
+  font-style: normal;
+  font-weight: 300 !important;
+  margin-top: 7.44px !important;
+}

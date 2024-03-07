@@ -1,0 +1,25 @@
+.coder-detail--heading-box {
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+  padding: 14px 24px 8px 24px;
+  text-align: start;
+}
+
+.coder-detail--body-box {
+  text-align: start;
+  padding: 20px 17px 23px 24px;
+}
+
+.coder-detail--img {
+  height: 40px;
+  width: 40px;
+}
+
+.coder-detail--img img {
+  height: 100%;
+  width: 100%;
+}
+
+.coder-detail--link-text {
+  text-decoration: none;
+  cursor: pointer;
+}

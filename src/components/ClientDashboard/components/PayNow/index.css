@@ -1,0 +1,66 @@
+.pay-now--main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 538px;
+  margin: 50px auto 107px;
+}
+.pay-now--payment-heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 40px;
+}
+.pay-now--payment-heading1 {
+  color: #000;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+}
+.pay-now--payment-heading2 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+.pay-now--pay-button {
+  margin-bottom: 24px !important;
+  color: #ffffff !important;
+  width: 100%;
+  border-radius: 4px !important;
+  background: #000 !important;
+}
+.pay-now--or {
+  margin-bottom: 24px !important;
+  width: 100%;
+}
+.pay-now-text-field {
+  margin-bottom: 24px !important;
+}
+.sd {
+  width: 100%;
+}
+.pay-now--secret-card-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px !important;
+}
+.pay-now--pay-now-button {
+  color: #fff !important;
+}
+.pay-now--pay-now-button-box {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .pay-now--main-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

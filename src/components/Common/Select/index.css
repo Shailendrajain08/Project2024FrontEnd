@@ -1,0 +1,17 @@
+.select-field {
+  text-align: start;
+}
+
+.select-field .css-xx540 {
+  margin-bottom: 0;
+}
+
+.select-label .MuiFormLabel-root {
+  color: #acacac;
+}
+.select-field .MuiFormLabel-root.Mui-focused {
+  padding: 0;
+  color: #14a800 !important;
+  border-color: #14a800;
+}
+

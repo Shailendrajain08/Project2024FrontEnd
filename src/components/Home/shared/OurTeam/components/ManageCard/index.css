@@ -1,0 +1,71 @@
+.home-job-manager--card {
+  width: 270px;
+  -webkit-box-shadow: 0px 9px 24px 5px #0000000d;
+  box-shadow: 0px 9px 24px 5px #0000000d;
+  border-radius: 15px;
+  transform: scale(0.9);
+}
+
+.home-job-manager-card--img {
+  min-height: 165px;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+@media (max-width: 1369.98px) {
+  .home-job-manager--card {
+    width: 230px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .home-job-manager--card {
+    width: 300px;
+  }
+  .home-job-manager-card--img {
+    min-height: 215px;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .home-job-manager--card {
+    width: 250px;
+  }
+  .home-job-manager-card--img {
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-job-manager--card {
+    width: 200px;
+  }
+  .home-job-manager-card--img {
+    min-height: 145px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-job-manager--card {
+    width: 148px;
+  }
+  .home-job-manager-card--img {
+    min-height: 90px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .home-job-manager--card {
+    width: 330px !important;
+    transform: scale(0.85);
+    -webkit-box-shadow: 0px 9px 24px 5px #0000000d;
+    box-shadow: 0px 9px 24px 5px #0000000d;
+    border-radius: 15px;
+  }
+
+  .home-job-manager-card--img {
+    min-height: 240px;
+  }
+
+}

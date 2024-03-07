@@ -1,0 +1,10 @@
+.help-icon-modif {
+  color: #14a800;
+  width: 12px !important;
+  height: 12px !important;
+}
+.hourly-job--text-fields {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}

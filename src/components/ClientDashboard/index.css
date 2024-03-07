@@ -1,0 +1,70 @@
+.client-dashboard-box {
+  background-color: #f9f9f9;
+}
+
+.search-box {
+  width: 100%;
+}
+
+.client-dashboard-container {
+  padding: 50px 0px;
+}
+
+@media (min-width: 1025px) {
+  .client-dashboard--container-box {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 40px;
+  }
+  .client-dashboard--left-container {
+    width: 711px;
+  }
+
+  .client-dashboard--right-container {
+    width: 404px;
+  }
+}
+
+.right-container--top-card {
+  padding: 14px 0px;
+}
+
+.recent-chat-top-box {
+  text-align: start;
+  padding: 0px 20px 9px 12px;
+  border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-payment-top-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.recent-chat-top-box svg {
+  cursor: pointer;
+}
+
+.skills-tab-box .chip-container span {
+  padding: 4px 6px !important;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.success-manager-close-icon {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.success-manager-close-icon svg {
+  height: 100%;
+  width: 100%;
+}

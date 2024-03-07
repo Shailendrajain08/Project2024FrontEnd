@@ -1,0 +1,26 @@
+{
+  "buttonTexts": {
+    "editProfile": "EDIT PROFILE"
+  },
+  "socialMedias": {
+    "careerBliss": "Career Bliss",
+    "glassdoor": "Glassdoor",
+    "youTube": "YouTube channel"
+  },
+  "datagrid": {
+    "rowHeight": 72
+  },
+  "addressDetails": {
+    "address": "Address",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2"
+  },
+  "paymentDetails": {
+    "payment": "Payment Details",
+    "fileSize": "3 MB",
+    "expiryDate": "Expires On",
+    "uniqueId": "Unique ID",
+    "aadhar": "Aadhar Card",
+    "taxId": "Tax ID"
+  }
+}

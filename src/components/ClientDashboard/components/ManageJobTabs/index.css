@@ -1,0 +1,13 @@
+.client-dashboard--job-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px rgba(0, 0, 0, 0.12) solid;
+  margin-top: 24px;
+}
+
+.tab-title {
+  text-align: start;
+  padding-left: 24px;
+  padding-top: 24px;
+}

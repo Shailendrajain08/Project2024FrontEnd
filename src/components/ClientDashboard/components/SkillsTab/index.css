@@ -1,0 +1,38 @@
+.client-dashboard--skills-tab--box {
+  width: auto;
+}
+
+.client-dashboard--skills-tab--box .chip-container {
+  cursor: pointer;
+  border-radius: 100px !important;
+  border: 1px #bdbdbd solid !important;
+  background-color: white !important;
+  word-wrap: break-word;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  height: auto !important;
+}
+
+.client-dashboard--skills-tab--svg-box{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.client-dashboard--skills-tab--svg-box svg {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 760px) {
+  .client-dashboard--skills-tab--box .chip-container {
+    cursor: pointer;
+    border-radius: 100px !important;
+    border: 1px #bdbdbd solid !important;
+    background-color: white !important;
+    word-wrap: break-word;
+    margin-left: 4px;
+    height: 32px !important;
+  }
+}

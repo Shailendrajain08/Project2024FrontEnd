@@ -1,0 +1,242 @@
+.skills--main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 100px;
+}
+.basic-info-main-container {
+  margin: 0 auto;
+  text-align: start;
+  width: 100%;
+}
+.address--main-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 100px;
+}
+.skill-coder-intro {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.address-detail-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.address-main-detail-box {
+  display: flex;
+  align-items: end;
+}
+
+.skill-tech-list {
+  text-align: start;
+  margin-bottom: 8px;
+}
+.separater-line-skill {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.coder--skill-wrapper {
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+.basic-info-company-details {
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 100%;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  margin-top: 16px;
+}
+.Coder-skill--expertise {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+.coder-total--experince {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+.coder--brief-exp {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.coder-basic-field--wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 35px;
+}
+
+/* ============== coder profile education style ================= */
+.coder-profile--education-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.coder-profile--degree {
+  margin-bottom: 24px;
+}
+.coder-profile--degree,
+.coder-profile--certification {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: flex-start;
+}
+.degree-wrapper,
+.certification-wrapper {
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 100%;
+}
+.degree-section,
+.certification-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  align-items: self-start;
+  padding: 13px 20px;
+}
+.coder-profile--file-wrapper {
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+.file--section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.file--open-icon {
+  display: flex;
+  column-gap: 6px;
+}
+.file--icon {
+  border: 1.3px solid #14a800;
+  border-radius: 100%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file--icon svg {
+  fill: #14a800;
+  height: 14px;
+  width: 14px;
+}
+.coder--portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 14px;
+}
+.portfolio--wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.portfolio--label-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 6px;
+}
+.selected-menu svg {
+  width: 32px;
+  height: 32px;
+}
+.not-selected-menu svg {
+  width: 32px;
+  height: 32px;
+}
+
+.portfolio--desc {
+  color: rgba(0, 0, 0, 0.6);
+}
+.client-menu--list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.client-menu--list .client--main-menu .MuiButtonBase-root .MuiListItemButton-root {
+  column-gap: 8px;
+}
+.coder-basic-detail--profile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  margin: 0 auto;
+}
+.profile-pic-edit {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.coder-profile-digital--input-field {
+  display: flex;
+  flex-direction: column;
+  column-gap: 32px;
+}
+.coder-profile-digital--right-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.coder-profile-digital--left-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.coder-profile-digital--left-section .coder-profile-digital-presence {
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 0 12px;
+  display: flex;
+  column-gap: 10px;
+  text-transform: capitalize;
+}
+.coder-profile-digital--left-section .coder-profile-digital-presence svg {
+  width: 18px;
+  height: 18px;
+}
+.coder-profile-management--digital-page {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .skills--main-container {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .coder-profile--education-container,
+  .skills--main-container,
+  .basic-info-main-container,
+  .address--main-container {
+    width: 771px;
+  }
+  .coder-profile--file-wrapper {
+    flex-wrap: nowrap;
+  }
+}

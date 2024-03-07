@@ -1,0 +1,56 @@
+.coder-detail-container {
+  margin: 50px auto 100px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  text-align: start;
+}
+.coder-detail-heading-tab-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.coder-detail-desc {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.coder-detail-coder-hired {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.coder-detail-tab-box {
+  margin-left: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.coder-detail-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.coder-detail-heading {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.coder-detail-filter.MuiChip-root {
+  padding-left: 10px;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+}
+
+.coder-detail-proposal-heading {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.proposal---heading {
+  padding: 24px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}

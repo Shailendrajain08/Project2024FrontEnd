@@ -1,0 +1,44 @@
+.home-our-exp--section {
+  padding: 75px 0px;
+}
+
+.heading-box {
+  width: 258px;
+}
+
+.home-our-exp--heading-box {
+  padding-bottom: 16px;
+}
+
+.home-our-exp--card-box {
+  padding-top: 35px;
+}
+
+.home-our-exp--text-heading {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  line-height: 33.04px !important;
+}
+
+@media (min-width:768px){
+  .home-our-exp--section {
+    padding: 140px 0px;
+  }
+
+  .home-our-exp--text-heading {
+    font-size: 48px !important;
+    line-height: 56.64px !important;
+  }
+
+  .heading-box {
+    width: 568px;
+  }
+
+  .home-our-exp--heading-box {
+    padding-bottom: 24px;
+  }
+
+  .home-our-exp--card-box {
+    padding-top: 37px;
+  }
+}

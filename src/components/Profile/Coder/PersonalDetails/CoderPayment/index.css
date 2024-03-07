@@ -1,0 +1,32 @@
+.coder-profile-payment {
+  max-width: 538px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.coder-profile-payment-container {
+  text-align: start;
+}
+.coder-profile-payment-bank-info-box {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding-bottom: 40px;
+}
+.unique-id-text-field .unique-id-text-field-button {
+  background-color: rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.56);
+  text-transform: none;
+  padding: 8px 24px;
+  font: 14px;
+  color: #00000099;
+}
+.add-more-prfl-btn {
+  border: none;
+  line-height: 26px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.coder-profile-payment-bank-info-box--input--field .MuiOutlinedInput-input {
+  padding-left: 12px;
+}

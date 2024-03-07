@@ -1,0 +1,82 @@
+.home-coder-cmp--box {
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+
+.home-coder-cmp--hero-box {
+  height: 950px;
+}
+
+#scroll svg {
+  height: 23px;
+  width: 20px;
+}
+
+#scroll {
+  position: fixed;
+  bottom: 20px;
+  border: 1px solid white;
+  right: -100%;
+  z-index: 50;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 50% !important;
+  background: #0d7021;
+  -webkit-animation: moves 3s infinite;
+  animation: moves 3s infinite;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out !important;
+}
+
+@-webkit-keyframes moves {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes moves {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+#scroll:hover {
+  background: #004225;
+  color: var(--color-black) !important;
+  -webkit-box-shadow: 0px 0px 10px #0d7021;
+  box-shadow: 0px 0px 10px #0d7021;
+}
+
+@media (min-width: 600px) {
+  .home-coder-cmp--box {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home-coder-cmp--hero-box {
+    height: 810px;
+  }
+}

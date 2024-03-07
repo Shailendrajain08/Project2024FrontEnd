@@ -1,0 +1,20 @@
+.modal-body {
+  border-radius: 8px;
+  padding: 24px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.model-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon-box {
+  cursor: pointer;
+}

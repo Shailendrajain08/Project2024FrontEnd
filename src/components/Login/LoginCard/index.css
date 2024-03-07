@@ -1,0 +1,56 @@
+.login-card--box {
+  width: 300px;
+  height: 147px;
+  flex-shrink: 0;
+  border-radius: 15px !important;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background: #fff;
+  box-shadow: 1px 10px 30px 4px rgba(0, 0, 0, 0.09);
+  padding: 24px 32px;
+  position: absolute;
+  top: 120px;
+  left: 32px;
+  z-index: 12;
+}
+
+.login-card-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.login-card-circle svg {
+  border-top-right-radius: 14px;
+}
+
+.login-card-title {
+  color: rgba(0, 0, 0, 0.87)!important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  margin-bottom: 8px;
+}
+
+.login-card--design {
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin-bottom: 23.65px;
+}
+
+.login-card--logo-box {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 236px;
+  margin-top: 16.65px;
+
+}
+.login-card--previous-text {
+  color: #000;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 19.2px !important;
+  opacity: 0.6 !important;
+}

@@ -1,0 +1,107 @@
+.login-box {
+  display: flex;
+}
+
+.login-box--left {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login.login-box--left-email {
+  margin-top: 32px;
+}
+
+.login-box--left-container {
+  width: 368px;
+  text-align: start;
+}
+
+.login-box--left-title {
+  font-size: 32px !important;
+  font-weight: 400;
+  line-height: 40px !important;
+  margin-bottom: 12px !important;
+}
+
+.login-box--left-sub-title {
+  margin: 12px 0px !important;
+  font-size: 20px !important;
+  font-weight: 500;
+  line-height: 29px !important;
+}
+
+.login-box--forget-password a {
+  padding-top: 3px !important;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 19.2px;
+}
+
+.admin-login-btn {
+  margin-top: 24px;
+}
+.admin-cancel-btn {
+  margin-top: 16px;
+}
+.admin-login-btn-color {
+  color: white !important;
+}
+
+.login-box--login-btn {
+  margin: 16px 0px !important;
+}
+
+.login-box--login-btn button {
+  line-height: 26px !important;
+}
+
+.login-box--left-form-group .login-box--form-label {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.login-box--left-form-group .login-box--form-radio-btn {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+.login-box--sign-up-box {
+  text-align: center;
+}
+
+.login-box--sign-up-box a {
+  padding-left: 4px;
+  color: #14a800;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-box--right {
+  flex: 50%;
+  position: relative;
+}
+
+@media (max-width: 980px) {
+  .login-box--left {
+    flex: 100%;
+    height: calc(100vh - 180px);
+  }
+
+  .login-box--right {
+    display: none;
+  }
+}
+
+.login-box--right-img-box {
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.login-box--right-img-box img {
+  display: block;
+  max-width: 100%;
+}

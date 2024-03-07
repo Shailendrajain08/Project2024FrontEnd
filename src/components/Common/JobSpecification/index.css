@@ -1,0 +1,30 @@
+.common-job-specification {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 8px;
+}
+.text-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.common-job-specification .time-zone-job{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+.common-job-specification .expertise-job-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common-job-specification .job-specification--timezone-box .time-zone-job{
+  word-break: break-all;
+}
+
+@media (min-width:768.5px){
+  .common-job-specification {
+    display: flex;
+    column-gap: 24px;
+    align-items: start;
+  }
+}

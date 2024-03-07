@@ -1,0 +1,81 @@
+.home-client-testimonial-section {
+  position: relative;
+  top: 36px;
+  padding-top: 18.7px;
+}
+
+.home-client-testimonial-container {
+  padding-top: 10px;
+}
+
+.hct--scrollbar-box {
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hct--scroll-animation-box {
+    -webkit-transform: translateX(2050px);
+    -ms-transform: translateX(2050px);
+    transform: translateX(2050px);
+    -webkit-animation-delay: -20s;
+    animation-delay: -20s;
+  }
+  .hct--scrollbar-box:hover .hct--scroll-animation-box{
+    -webkit-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+  }
+
+  .hct--scroll-animation-box {
+    display: -webkit-box;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-animation-name: textSCroll;
+    animation-name: textSCroll;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes textSCroll {
+    0% {
+      -webkit-transform: translateX(1200px);
+      transform: translateX(1200px);
+    }
+
+    100% {
+      -webkit-transform: translateX(-1200px);
+      transform: translateX(-1200px);
+    }
+  }
+
+  @keyframes textSCroll {
+    0% {
+      -webkit-transform: translateX(1200px);
+      transform: translateX(1200px);
+    }
+
+    100% {
+      -webkit-transform: translateX(-1200px);
+      transform: translateX(-1200px);
+    }
+  }
+
+}
+
+
+@media (min-width: 1024.5px) {
+  .home-client-testimonial-section{
+    top: 57px;
+    padding-top: 32px;
+    margin-top: 20px;
+  }
+}

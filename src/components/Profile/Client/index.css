@@ -1,0 +1,127 @@
+.profile--container {
+  height: 100%;
+  overflow: auto;
+  background-color: #f9f9f9;
+  flex: 100%;
+}
+
+.client-profile--container {
+  display: flex;
+  height: 100vh;
+}
+
+.client-profile-menu--container {
+  height: 100%;
+  min-width: 419px;
+}
+
+.card-content:hover {
+  background-color: aliceblue;
+}
+
+.card-content--border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.password-change--form {
+  /* width: fit-content; */
+  width: 368px;
+  margin: 80px auto 0 auto;
+}
+.password-profile-heading {
+  margin-bottom: 64px !important;
+}
+.password-change--field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 16px;
+}
+.password-profile-sub-heading {
+  margin-bottom: 24px !important;
+}
+.password-change--button {
+  display: flex;
+}
+.password-change--button button {
+  flex: 1;
+  color: #fff;
+}
+.password-profile-checkbox {
+  margin-bottom: 24px;
+}
+
+/* =======side menu style============= */
+.side-menu--list {
+  width: 100%;
+  background-color: #fff;
+}
+.selected-menu {
+  color: #14a800;
+}
+.selected-menu svg {
+  color: #14a800;
+  width: 32px;
+  height: 32px;
+}
+.not-selected-menu svg {
+  width: 32px;
+  height: 32px;
+}
+.selected-menu .Mui-selected {
+  background-color: unset !important;
+}
+.selected-menu .Mui-selected:hover {
+  background-color: unset !important;
+}
+
+/* ========================= side menu new design style====================== */
+.client-profile-sidemenu--content {
+  display: flex;
+  justify-content: center;
+  margin-top: 84px;
+}
+.client-side--menu-container {
+  padding: 0 1.5px;
+}
+.client-side--menu-container > .MuiList-root {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+.client--main-menu > .MuiListItemButton-root {
+  column-gap: 8px;
+}
+.client--main-menu > .MuiListItemButton-root > .MuiListItemIcon-root {
+  justify-content: end;
+}
+.client-side--menu-container .Mui-selected {
+  background-color: unset !important;
+  column-gap: 8px;
+}
+.client-side--menu-container .Mui-selected .MuiListItemIcon-root {
+  justify-content: end;
+}
+.client-sub-menu {
+  padding-left: 50px;
+}
+.client-sub-menu div {
+  width: 100%;
+}
+.client-menu--list .client--main-menu .MuiButtonBase-root .MuiListItemButton-root {
+  column-gap: 8px;
+}
+
+/* ======================company details========================== */
+.company-detail-title {
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 29px !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .outline-profile-btn {
+    padding: 8px 22px !important;
+  }
+}

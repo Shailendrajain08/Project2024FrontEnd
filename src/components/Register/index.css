@@ -1,0 +1,212 @@
+.register-container {
+  padding: 24px;
+  margin: auto;
+  max-width: 500px;
+  flex-grow: 1;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.register-top {
+  background-color: gray;
+  height: 35px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.register-top .active {
+  background-color: green !important;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.bg-gray {
+  background-color: gray !important;
+}
+
+.color-gray {
+  color: gray !important;
+}
+
+/* customize mui css  */
+.css-1ruxp1v {
+  padding: 0 !important;
+}
+
+/* stepper css */
+.css-n7tliy-MuiStep-root {
+  padding: 0 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #14a800 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #fff !important;
+  border-radius: 50% !important;
+  border: 1px solid #14a800 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #eaeff3 !important;
+}
+
+.grid-wrapper,
+.css-xx540 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* fresh css */
+.main-container {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 0px 20px;
+}
+
+.heading-wrapper {
+  display: flex;
+  padding-bottom: 32px;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #000 !important;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 40px; */
+}
+
+.skill-btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.skip-btn {
+  color: #14a800 !important;
+  font-family: Inter !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.css-1ef6q53-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root {
+  margin-bottom: 32px;
+}
+.css-1en3h47-MuiInputBase-root-MuiOutlinedInput-root {
+  padding: 0;
+}
+
+/* adding reusable button css in this global css for registration for submit button and back button */
+
+/* add style for sign up screen */
+.signup-container {
+  display: flex;
+  width: 100%;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 24px;
+}
+.radio-field-container {
+  margin-bottom: 24px;
+  display: flex;
+  margin-top: 12px;
+}
+.img-section {
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.select-container {
+  width: 100%;
+}
+
+.basic-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 20px;
+  row-gap: 30px;
+}
+
+.signup-form-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+.radio-button {
+  margin: 0 !important;
+}
+.radio-button--group {
+  column-gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .Image-wrapper {
+    display: none;
+  }
+  .signup-form-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+  .form-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .signup-form-wrapper,
+  .Image-wrapper {
+    width: 50%;
+  }
+  .signup-form-wrapper {
+    padding: 52px 0px;
+    width: 368px;
+    margin: 0 auto;
+  }
+  .form-wrapper {
+    width: 368px;
+    margin: 0 auto;
+  }
+  .skill-wrapper {
+    width: 536px;
+    margin: 0 auto;
+  }
+  .form-container {
+    width: 536px;
+    margin: 0px auto;
+  }
+  .tab-wrapper {
+    width: 536px;
+    margin: 0px auto;
+  }
+  .basic-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 746px;
+    padding: 50px 0px;
+    row-gap: 64px;
+  }
+  .radio-button--group {
+    column-gap: 18px;
+  }
+}

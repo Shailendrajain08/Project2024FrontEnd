@@ -1,0 +1,78 @@
+.client-section-csv-button.MuiButton-root {
+  border-radius: 96px;
+}
+.clients---table {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+.clients---table .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  min-height: 62px !important;
+}
+.client-header-select--box.MuiFormControl-root {
+  min-width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .clients---table--divider-box {
+    width: 570px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+
+.clients---table .MuiDataGrid-columnHeaderTitle {
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.clients---table .MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 0px 24px;
+}
+
+.clients---table .MuiDataGrid-root {
+  border-top: none;
+}
+
+.client---tablist .MuiTabs-flexContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 23px;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.client---tablist .css-1gsv261 {
+  border-bottom: none;
+}
+.client-table---linkedin--logo.MuiAvatar-root {
+  width: 26px;
+  height: 26px;
+  padding: 6px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1.3px solid rgba(0, 0, 0, 0.23);
+}
+
+.client-name--clicked.MuiTypography-root.MuiLink-root {
+  color: #14a800;
+}
+.client-name--not-clicked {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .client-table-date-picker-container {
+    position: relative;
+    left: -215px;
+  }
+  .client-table-date-picker-container .MuiInputBase-input.MuiOutlinedInput-input {
+    padding: 8.5px 10px;
+  }
+
+  .client-table-date-picker-container .MuiStack-root > .MuiTextField-root {
+    min-width: 190px;
+  }
+}

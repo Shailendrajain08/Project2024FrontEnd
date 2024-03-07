@@ -1,0 +1,43 @@
+{
+  "jobs": [
+    {
+      "id": "7afcf1e4-b15e-4e61-a482-6763721d7837",
+      "title": "Senior Java geek required with practical knowledge in blockchain",
+      "description": "Panaroma Finance is the worlds leading blockchain-based cryptocurrency exchange platform. Its headquarters in Dubai. We deal with digital currencies that are prevalent around the world, such as Bitcoin, Ethereum, USDT, and other digital currencies at face value. \nWe are looking for a Java/Full stack Developer (SDE roles) for Product engineering team with experience in building high-performing, scalable, enterprise-grade applications. \nYou will be part of a talented software team that works on mission-critical applications. Java developer roles and responsibilities include managing Java application development while providing expertise in the full software development lifecycle, from concept and design to testing. \nJava developer responsibilities include designing, developing and delivering high-volume, low-latency applications for mission-critical systems.",
+      "skills": ["Java", "Springboot", "Blockchain", "Web Sockets", "Cryptocurrencies", "AWS"],
+      "preferred_coder_residence": "USA_ONLY",
+      "contracts": [],
+      "budget_type": "FIXED",
+      "maximum_budget": 2000,
+      "maximum_hourly_rate": null,
+      "minimum_hourly_rate": null,
+      "created": "2023-10-31T16:26:34.524015Z",
+      "updated": "2023-10-31T16:26:34.524068Z",
+      "project_size": "LARGE",
+      "duration": "SHORT_TERM",
+      "expertise": ["EXPERT", "INTERMEDIATE"],
+      "timezone": ["GMT-8:00 Pacific Time Zone", "GMT-7:00 Mountain TimeZone"],
+      "status": "OFFERED",
+      "attachments": ["/attachment1.pdf", "/attachment2.jpg", "/attachment3.py"]
+    },
+    {
+      "id": "98775613-ea20-47a6-9b37-0b7759f3105d",
+      "title": "Cybersecurity Analyst - Threat Detection",
+      "description": "Join our cybersecurity team in London and help protect our organization from cyber threats. We're seeking a Cybersecurity Analyst with expertise in threat detection and incident response.",
+      "skills": ["Cybersecurity", "Threat Detection", "Incident Response"],
+      "preferred_coder_residence": "USA_ONLY",
+      "contracts": [],
+      "budget_type": "FIXED",
+      "maximum_budget": 2000,
+      "maximum_hourly_rate": null,
+      "minimum_hourly_rate": null,
+      "created": "2023-10-31T16:26:34.524015Z",
+      "updated": "2023-10-31T16:26:34.524068Z",
+      "project_size": "MEDIUM",
+      "duration": "LONG_TERM",
+      "expertise": ["EXPERT", "INTERMEDIATE"],
+      "timezone": ["GMT-8:00 Pacific Time Zone", "GMT-7:00 Mountain TimeZone"],
+      "status": "OFFERED"
+    }
+  ]
+}

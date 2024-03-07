@@ -1,0 +1,77 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.top-section {
+  padding: 24px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.bottom-section {
+  padding: 24px 24px;
+}
+.detail-btn {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding: 4px 5px !important;
+}
+.uploaded-file-section {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e0e0e0;
+  width: max-content;
+  display: flex;
+  position: relative;
+  column-gap: 10px;
+}
+.delete--icon-box {
+  position: absolute;
+  bottom: 24px;
+  left: 23px;
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  color: #fff !important;
+  padding: 0 !important;
+}
+
+.upload-btn {
+  background-color: none !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  padding-top: 4px !important;
+  text-transform: none !important;
+}
+
+.milestone-add-btn {
+  background-color: none !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+.project-cost-section {
+  display: flex;
+  justify-content: space-between;
+}
+.question-icon {
+  color: #14a800;
+  font-size: 16px !important;
+  cursor: pointer !important;
+}
+.input-field-upload-file {
+  display: none;
+}
+
+.disable-milestone-btn {
+  color: rgba(211, 47, 47, 1);
+  border: 1px solid rgba(211, 47, 47, 1);
+  border-radius: 50%;
+  padding: 6px;
+  height: 26px !important;
+  width: 26px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 16px;
+  cursor: pointer;
+}
+.disable-milestone-btn svg {
+  font-size: 14px;
+}

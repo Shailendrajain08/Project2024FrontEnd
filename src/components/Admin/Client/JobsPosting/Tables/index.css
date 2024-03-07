@@ -1,0 +1,66 @@
+.data--grid--client-tables .MuiDataGrid-root {
+  border: none;
+}
+.data--grid--client-tables .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  min-height: 70px !important;
+}
+.data--grid--client-tables .MuiDataGrid-columnHeaderTitle {
+  margin-left: 0px;
+  font-size: 14px;
+}
+.data--grid--client-tables .MuiDataGrid-root .MuiDataGrid-cell {
+  padding-left: 0px;
+}
+.data--grid--client-tables .MuiDataGrid-columnHeaderTitleContainer {
+  margin-left: 0px;
+}
+.data--grid--client-tables .MuiDataGrid-root .MuiDataGrid-columnHeader {
+  padding: 0px;
+}
+
+.data--grid--other--tables .MuiDataGrid-root {
+  border: none;
+}
+
+.data--grid--other--tables .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  min-height: 70px !important;
+}
+
+.data--grid--other--tables .MuiDataGrid-columnHeaderTitle {
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.data--grid--other--tables .MuiDataGrid-root .MuiDataGrid-cell {
+  padding: 0px 24px;
+}
+
+.data-grid-row--items {
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+#avatar-gp-dimension.MuiAvatarGroup-root .MuiAvatar-root {
+  height: 24px;
+  width: 24px;
+}
+
+.chip--active.MuiChip-root {
+  background-color: rgba(239, 108, 0, 0.08);
+  color: #ff9800;
+}
+
+.chip--completed.MuiChip-root {
+  background-color: #e3f5e0;
+  color: #14a800;
+}
+
+.chip--open.MuiChip-root {
+  background-color: #fffde7;
+  color: #f9a825;
+}
+
+.chip--expired.MuiChip-root {
+  background-color: #feebee;
+  color: #d32f2f;
+}

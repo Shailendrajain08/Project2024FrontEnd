@@ -1,0 +1,120 @@
+@media (min-width: 1025px) {
+  .search-box {
+    width: 316px;
+  }
+}
+
+.search-box .search-input {
+  border: 1px #e7e7e7 solid !important;
+  border-radius: 8px !important;
+  height: 46px !important;
+  width: 100%;
+  box-shadow: none !important;
+  margin-top: 5px;
+}
+
+.search-text {
+  line-height: 21px;
+  word-wrap: break-word;
+  color: #4d4d4d;
+  font-size: 14px;
+  margin-left: 10px !important;
+}
+
+.search-end-box {
+  border-left: 1px #e7e7e7 solid;
+  height: 26px !important;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-end-box .option-select {
+  display: flex;
+  cursor: pointer;
+}
+
+.option-select p {
+  margin-right: 5px;
+}
+
+.option-box {
+  position: absolute;
+  background-color: #fff;
+  left: 15rem;
+  top: 3.125rem;
+  border-radius: 4px !important;
+  box-shadow: 0px 7px 17px rgba(0, 0, 0, 0.07);
+  z-index: 999999 !important;
+}
+
+.option-box li {
+  cursor: pointer;
+  line-height: 21px;
+  word-wrap: break-word;
+  color: #4d4d4d;
+  font-size: 14px;
+}
+
+.option-box li:hover {
+  background-color: #f6f6f6;
+}
+
+.search--box-search-icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+/* --------------------------------- search drawer -------------------------------------------- */
+
+.mobile-search-bar--top-box {
+  height: 51px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.mobile-search-bar--top-box svg {
+  height: 20px;
+  width: 20px;
+}
+
+.search-drawer--search-box {
+  height: 32px;
+  width: 100%;
+}
+
+@media (min-width: 660px) {
+  .search-drawer--search-box {
+    height: 46px;
+    width: 100%;
+  }
+}
+
+.search-box-drawer--form-control {
+  width: 100%;
+  height: 100%;
+}
+
+.search-box-drawer--form-control .css-1rbnf4w-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-box-drawer--form-control input {
+  height: 100%;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.search-box-drawer--form-control svg {
+  width: 14px;
+  height: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.recent-search--chip {
+  margin-left: 6px;
+}
